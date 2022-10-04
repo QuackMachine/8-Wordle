@@ -51,7 +51,7 @@ int main()
     bool done = false;
     do {
         //variable
-        const int tries = 6;                                    //6 for normal wordle
+        const int tries = 5;                                    //staying with the number 5 theme thing
         
         //shuffle between the word list
         random_shuffle(words.begin(), words.end());
